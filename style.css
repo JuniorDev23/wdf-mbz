@@ -20,7 +20,7 @@
 header{
     width: 100%;
     margin: auto;
-    padding: 20px 150px;
+    padding: 20px 50px;
     /* margin-top: 20px; */
     display: flex;
     justify-content: space-between;
@@ -60,18 +60,63 @@ header .navigation ul{
     
 }
 
-header .navigation ul li{ 
+header .navigation ul{ 
     color: #000;
     margin-left: 10px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
     transition: 0.4s;
+    
 }
+
+
+
+header .navigation .drop-down { 
+   
+    /* transition: 0.4s; */
+    animation: bounce 0.3s ease-in-out 0.s 1;
+}
+
+
+
+@keyframes bounce{
+    0%  {
+        margin-top: -50px;
+        /* margin-left: 0; */
+    }
+}
+/* 
+header .navigation ul li:hover {
+    animation: gyrate 0.4s ease-in-out 0s 1;
+}
+
+@keyframes gyrate{
+    0% {
+        margin-left: -20px;
+    }
+} */
+
+header .navigation ul li i{
+    font-size: 10px;
+}
+
+header .navigation ul li i:hover{
+    transition: ease-in-out 1s;
+    transform: rotate(180deg);
+}
+
 
 header .navigation ul li.main:hover{
     border-bottom: 2px solid #138951;
+    /* animation: gyrate 1.2s ease-in-out 0s 1; */
 }
+/* 
+@keyframes gyrate{
+    0%{
+        margin-left: -10px;
+    }
+} */
 
 header .navigation ul li a{
     text-decoration: none;
@@ -98,6 +143,7 @@ header .navigation ul li:hover .program-down{
     display: block;
     margin-top: 10px;
     padding-left: 0;
+    margin-left: 0;
     
 }
 
@@ -111,7 +157,7 @@ header .navigation ul li:hover .program-down{
 .navigation .program-down ul li:hover {
     background-color: #138951;
     padding: 10px 0;
-    transition: ease-in-out .4s;
+    transition: ease-in-out 1s;
 }
 
 
@@ -138,6 +184,7 @@ header .navigation ul li:hover .about-drop-down{
 .navigation .about-drop-down ul{
     display: block;
     padding: 15px 0;
+    margin-left: 0;
 
 }
 
@@ -145,6 +192,7 @@ header .navigation ul li:hover .about-drop-down{
     font-size: 12px;
     margin-bottom: 10px;
     transition: ease-in-out  0.4s;
+    margin-left: 0;
 }
 
 .navigation .about-drop-down ul li:hover{
@@ -177,6 +225,7 @@ header .navigation ul li:hover .about-drop-down{
     display: block;
     margin-top: 10px;
     padding-left: 0;
+    margin-left: 0;
 
 }
 
@@ -235,15 +284,15 @@ header .navigation ul li:hover .para-down{
 .navigation .para-down ul{
     display: block;
     padding: 15px 0;
+    margin-left: 0;
 
 }
 
 .navigation .para-down ul li{
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     transition: ease-in-out  0.4s;
     margin-left: 0;
-    margin-bottom: px;
 }
 
 .navigation .para-down ul li:hover{
@@ -272,7 +321,7 @@ header .navigation ul li:hover .contact-down{
     position: absolute;
     left: 0;
     top: 120%;
-    width: 220px;
+    width: 140px;
     /* margin-top: 15px; */
     box-shadow: 0px 16px 36px rgba(115, 115, 115, 0.2);
     
@@ -281,6 +330,7 @@ header .navigation ul li:hover .contact-down{
 .navigation .contact-down ul{
     display: block;
     padding: 15px 0;
+    margin-left: 0;
 
 }
 
@@ -297,4 +347,214 @@ header .navigation ul li:hover .contact-down{
     padding: 10px 0;
     color: #fff;
     transition: ease-in-out 0.4s;
+}
+
+
+/* SECTION-PATH */
+
+
+section.path{
+    background-image: url(./image/Image\ Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.path h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.path p{
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+section.path button {
+    color: #fff;
+    font-size: 18px;
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px 30px;
+    background-color: #138951;
+    border: 1px solid #138951;
+    border-radius: 5px;
+}
+
+/* SECTION-MISSIN-VISION */
+
+section.mis-vis{
+    width: 100%;
+    margin: 50px auto;
+}
+
+section.mis-vis .mission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.mis-vis .mission .text{
+    margin-left: 200px;
+    flex-basis: 40%;
+}
+
+section.mis-vis .mission .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .mission .text h2::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #138951;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+
+section.mis-vis .mission .text p{
+    font-size: 18px;
+    width: 500px;
+    line-height: 2;
+}
+
+section.mis-vis .mission .image{
+    width: 400px;
+    flex-basis: 40%;
+}
+
+section.mis-vis .mission .image img{
+    width: 100%;
+}
+
+
+
+section.mis-vis .vision{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section.mis-vis .vision .image{
+    width: 400px;
+    flex-basis: 40%;
+}
+
+
+section.mis-vis .vision .image img{
+    width: 100%;
+}
+
+
+section.mis-vis .vision .text{
+    /* margin-right: 100px; */
+    flex-basis: 40%;
+}
+
+
+section.mis-vis .vision .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .vision .text h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #138951;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+}
+
+
+section.mis-vis .vision .text p{
+    font-size: 18px;
+    width: 500px;
+    line-height: 2;
+}
+
+/* SECTION-RESOURCES */
+
+section.resources {
+    background-color: #D5EBE1;
+    width: 100%;
+    padding: 40px;
+}
+
+section.resources .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+section.resources .boxes .box {
+    background-color: rgba(11, 36, 24, 0.4);
+    width: 30%;
+    min-height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+section.resources .boxes .box .icon {
+    width: 50px;
+    margin: 0 auto;
+
+}
+
+section.resources .boxes .box  .icon img{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+section.resources .boxes .box h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+section.resources .boxes .box p{
+    font-size: 20px;
+    width: 70%;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+
+section.resources .boxes .box button{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #138951;
+    box-shadow: 0px 12px 32px rgba(19, 137, 81, 0.25);
+}
+
+section.resources .boxes .box button a{
+    text-decoration: none;
+    color: #fff;
 }

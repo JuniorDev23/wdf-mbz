@@ -4,19 +4,620 @@
 }
 
 
-@media (max-width: 1279px){
+@media (min-width: 992px) and (max-width: 1279px){
+    .mobile-logo{
+        display: none;
+        margin: auto;
+    }
 
+    .desktop-logo{
+        display: block;
+        margin: auto;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px 30px;    
+    }
+
+    
+header .navigation ul{
+    display: flex;
+}
+
+.mobile-menu{
+    display: none;
+    width: 30px;
+    
+}
+
+.mobile-menu img{
+    width: 100%;
+}
+
+.mobile-menu .drop-menu{
+    display: none;
+}
+
+/* SECTION-PATH */
+    
+section.path{
+    height: 90vh;
+}
+
+
+section.path h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.path p{
+    font-size: 32px;
+    width: 75%;
+    /* margin: auto; */
+}
+
+section.path button {
+    margin-top: 60px;
+    width: 200px;
+    font-size: 26px;
+}
+
+
+/* SECTION-MISSION-VISION */
+
+section.mis-vis .mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.mis-vis .mission .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .mission .text h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .mission .text h2::after {
+    content: "";
+    width: 130px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+
+section.mis-vis .mission .text p{
+    font-size: 22px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+section.mis-vis .mission .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+section.mis-vis .vision{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
-@media (max-width: 992px){
+section.mis-vis .vision .image{
+    width: 90%;
+    margin: auto;
+    
+}
 
+section.mis-vis .vision .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .vision .text h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: left;
+    
+}
+
+section.mis-vis .vision .text h2::after {
+    content: "";
+    width: 105px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+section.mis-vis .vision .text p{
+    font-size: 22px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+
+/* SECTION-RESOURCES */
+
+section.resources {
+    background-color: #D5EBE1;
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.resources .boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+section.resources .boxes .box {
+    background-color: rgba(11, 36, 24, 0.4);
+    width: 32%;
+    min-height: 200px;
+    padding: 35px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+section.resources .boxes .box-3{
+    display: block;
+}
+
+section.resources .boxes .box h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+section.resources .boxes .box p{
+    font-size: 18px;
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+    .mobile-logo{
+        display: none;
+        margin: auto;
+    }
+
+    .desktop-logo{
+        display: block;
+        margin: auto;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px 30px;    
+    }
+
+    
+header .navigation ul{
+    display: none;
+}
+
+.mobile-menu{
+    display: block;
+    width: 30px;
+    
+}
+
+.mobile-menu img{
+    width: 100%;
+}
+
+.mobile-menu .drop-menu{
+    display: none;
+}
+
+/* SECTION-PATH */
+    
+section.path{
+    height: 60vh;
+}
+
+
+section.path h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.path p{
+    font-size: 22px;
+    width: 80%;
+    /* margin: auto; */
+}
+
+section.path button {
+    margin-top: 40px;
+    width: 180px;
+}
+
+
+/* SECTION-MISSION-VISION */
+
+section.mis-vis .mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.mis-vis .mission .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .mission .text h2{
+    font-size: 38px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .mission .text h2::after {
+    content: "";
+    width: 130px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+
+section.mis-vis .mission .text p{
+    font-size: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+section.mis-vis .mission .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+section.mis-vis .vision{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
-@media (max-width: 768px){
+section.mis-vis .vision .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+section.mis-vis .vision .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .vision .text h2{
+    font-size: 38px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: left;
+    
+}
+
+section.mis-vis .vision .text h2::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+section.mis-vis .vision .text p{
+    font-size: 18px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+
+/* SECTION-RESOURCES */
+
+section.resources {
+    background-color: #D5EBE1;
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.resources .boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+section.resources .boxes .box {
+    background-color: rgba(11, 36, 24, 0.4);
+    width: 47%;
+    min-height: 200px;
+    padding: 35px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+section.resources .boxes .box-3{
+    display: none;
+}
+
+section.resources .boxes .box h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+section.resources .boxes .box p{
+    font-size: 24px;
+    width: 90%;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 768px){
+    .mobile-logo{
+        display: none;
+        margin: auto;
+    }
+
+    .desktop-logo{
+        display: block;
+        margin: auto;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px 50px;    
+    }
+
+    
+header .navigation ul{
+    display: none;
+}
+
+.mobile-menu{
+    display: block;
+    width: 30px;
+    
+}
+
+.mobile-menu img{
+    width: 100%;
+}
+
+.mobile-menu .drop-menu{
+    display: none;
+}
+
+/* SECTION-PATH */
+    
+section.path{
+    height: 90vh;
+}
+
+
+section.path h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.path p{
+    font-size: 22px;
+    width: 80%;
+    /* margin: auto; */
+}
+
+section.path button {
+    margin-top: 20px;
+    width: 180px;
+}
+
+
+/* SECTION-MISSION-VISION */
+
+section.mis-vis .mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.mis-vis .mission .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .mission .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .mission .text h2::after {
+    content: "";
+    width: 110px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+
+section.mis-vis .mission .text p{
+    font-size: 18px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+section.mis-vis .mission .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+section.mis-vis .vision{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section.mis-vis .vision .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+section.mis-vis .vision .text{
+    width: 100%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
+section.mis-vis .vision .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: left;
+    
+}
+
+section.mis-vis .vision .text h2::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    left: 0%;
+    bottom: 0px;
+}
+
+
+section.mis-vis .vision .text p{
+    font-size: 18px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/* SECTION-RESOURCES */
+
+section.resources {
+    background-color: #D5EBE1;
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.resources .boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+section.resources .boxes .box {
+    background-color: rgba(11, 36, 24, 0.4);
+    width: 47%;
+    min-height: 200px;
+    padding: 35px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+section.resources .boxes .box-3{
+    display: none;
+}
+
+section.resources .boxes .box h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+section.resources .boxes .box p{
+    font-size: 18px;
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+section.resources .boxes .box button{
+    font-size: 14px;
+}
 
 
 }
@@ -24,5 +625,201 @@
 
 @media (max-width: 480px){
 
+
+    .mobile-logo{
+        display: block;
+        margin: auto;
+    }
+
+    .desktop-logo{
+        display: none;
+    }
+
+    header{
+        width: 100%;
+        padding: 20px;    
+    }
+
     
+header .navigation ul{
+    display: none;
+}
+
+.mobile-menu{
+    display: block;
+    width: 30px;
+    
+}
+
+.mobile-menu img{
+    width: 100%;
+}
+
+.mobile-menu .drop-menu{
+    display: none;
+}
+
+/* SECTION-PATH */
+    
+section.path{
+    height: 60vh;
+}
+
+
+section.path h2{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+section.path p{
+    font-size: 14px;
+    width: 80%;
+    /* margin: auto; */
+}
+
+section.path button {
+    margin-top: 20px;
+    width: 180px;
+}
+
+
+section.mis-vis .mission{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.mis-vis .mission .text{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+section.mis-vis .mission .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    
+}
+
+section.mis-vis .mission .text h2::after {
+    content: "";
+    width: 130px;
+    height: 2px;
+    left: 29%;
+    bottom: 0px;
+}
+
+
+
+section.mis-vis .mission .text p{
+    font-size: 18px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+section.mis-vis .mission .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+section.mis-vis .vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section.mis-vis .vision .image{
+    width: 90%;
+    margin: auto;
+    
+}
+
+section.mis-vis .vision .text{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+section.mis-vis .vision .text h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+    
+}
+
+section.mis-vis .vision .text h2::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    left: 35%;
+    bottom: 0px;
+}
+
+
+section.mis-vis .vision .text p{
+    font-size: 18px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+/* SECTION-RESOURCES */
+
+section.resources {
+    background-color: #D5EBE1;
+    width: 100%;
+    padding: 20px 0;
+}
+
+section.resources .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+section.resources .boxes .box {
+    background-color: rgba(11, 36, 24, 0.4);
+    width: 90%;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+section.resources .boxes .box h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+section.resources .boxes .box p{
+    font-size: 20px;
+    width: 90%;
+    margin: 30px auto;
+    line-height: 1.5;
+}
+
+
+
+
+
 }
