@@ -412,6 +412,71 @@ section.resources .boxes .box p{
     line-height: 1.5;
 }
 
+/* SECTION-UPCOMING */
+
+section.upcoming h2::after{
+    content: "";
+    background-color: #138951;
+    position: absolute;
+    width: 232px;
+    height: 2px;
+    top: 70px;
+    left: 35%;
+}
+
+
+section.upcoming .boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section.upcoming .boxes .box{
+    width: 40%;
+    /* margin-left: 30px; */
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 24px;
+    position: relative;
+}
+
+
+section.upcoming .boxes .box .text{
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.upcoming .boxes .box .text p.sisters{
+    color: 
+    #138951;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+section.upcoming .boxes .box .text p.theme{
+    font-size: 20px;
+}
+
+section.upcoming .boxes .box .text p.venue{
+    font-size: 20px;
+}
+
+section.upcoming .boxes .box .text p.reg {
+    font-size: 20px;
+}
+
+/* SECTION-NEWSLETTER */
+section.newsletter .col-1 p.subscribe{
+    width: 300px;
+}
+
+
+section.newsletter .col-1 p {
+    width: 280px;
+}
+
 }
 
 
@@ -620,6 +685,81 @@ section.resources .boxes .box button{
 }
 
 
+/* SECTION-UPCOMING */
+
+
+section.upcoming h2::after{
+    content: "";
+    background-color: #138951;
+    position: absolute;
+    width: 232px;
+    height: 2px;
+    top: 70px;
+    left: 35%;
+}
+
+
+section.upcoming .boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section.upcoming .boxes .box{
+    width: 40%;
+    /* margin-left: 30px; */
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 24px;
+    position: relative;
+}
+
+
+section.upcoming .boxes .box .text{
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.upcoming .boxes .box .text p.sisters{
+    color: 
+    #138951;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+section.upcoming .boxes .box .text p.theme{
+    font-size: 20px;
+}
+
+section.upcoming .boxes .box .text p.venue{
+    font-size: 20px;
+}
+
+section.upcoming .boxes .box .text p.reg {
+    font-size: 20px;
+}
+
+/* SECTION-NEWSLETTER */
+
+section.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+section.newsletter .col-1 p.subscribe{
+    width: 190px;
+}
+
+
+section.newsletter .col-1 p {
+    width: 220px;
+}
+
 }
 
 
@@ -818,6 +958,94 @@ section.resources .boxes .box p{
     line-height: 1.5;
 }
 
+
+/* SECTION-UPCOMING */
+
+section.upcoming .boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+
+section.upcoming .boxes .box{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 24px;
+    position: relative;
+    margin: 20px 0;
+}
+
+
+section.upcoming h2::after{
+    content: "";
+    background-color: #138951;
+    position: absolute;
+    width: 180px;
+    height: 2px;
+    top: 65px;
+    left: 23%;
+}
+
+
+section.upcoming .boxes .box .date{
+    border-top-left-radius: 14px;
+    opacity: 0.8;
+    width: 125px;
+    padding: 15px;
+}
+
+section.upcoming .boxes .box .image{
+    width: 100%;
+    margin: auto;
+    
+}
+
+section.upcoming .boxes .box .image img{
+    width: 100%;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+/* SECTION-NEWSLETTER */
+
+section.newsletter{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+}
+
+section.newsletter .col-1{
+    width: 100%;
+}
+
+section.newsletter .col-1 p.subscribe{
+    width: 95%; 
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+section.newsletter .col-1 p {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+section.newsletter .col-2{
+    border: 2px solid #138951;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
 
 

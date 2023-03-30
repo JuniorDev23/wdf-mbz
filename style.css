@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+.desktop-logo{
+    margin: auto;
+}
+
 .mobile-menu{
     display: none;
 }
@@ -75,7 +79,7 @@ header .navigation ul{
 header .navigation .drop-down { 
    
     /* transition: 0.4s; */
-    animation: bounce 0.3s ease-in-out 0.s 1;
+    animation: bounce 0.6s ease-in 0s 1;
 }
 
 
@@ -102,7 +106,7 @@ header .navigation ul li i{
 }
 
 header .navigation ul li i:hover{
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.1s;
     transform: rotate(180deg);
 }
 
@@ -157,7 +161,8 @@ header .navigation ul li:hover .program-down{
 .navigation .program-down ul li:hover {
     background-color: #138951;
     padding: 10px 0;
-    transition: ease-in-out 1s;
+    transition: ease-in-out .6s;
+    transition-delay: 0s;
 }
 
 
@@ -558,3 +563,162 @@ section.resources .boxes .box button a{
     text-decoration: none;
     color: #fff;
 }
+
+
+/* SECTION-UPCOMING */
+
+section.upcoming{
+    
+    padding: 20px auto;
+    background-color: 
+    #FAFAFA;
+}
+
+section.upcoming h2{
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+section.upcoming h2::after{
+    content: "";
+    background-color: #138951;
+    position: absolute;
+    width: 245px;
+    height: 2px;
+    top: 65px;
+    left: 42%;
+}
+
+section.upcoming .boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+section.upcoming .boxes .box{
+    width: 40%;
+    min-height: 320px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 24px;
+    position: relative;
+}
+
+section.upcoming .boxes .box .date{
+    position: absolute;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #6E6E6E;
+    border-top-left-radius: 24px;
+    opacity: 0.8;
+}
+
+section.upcoming .boxes .box .image{
+    width: 100%;
+    margin: auto;
+    
+}
+
+section.upcoming .boxes .box .image img{
+    width: 100%;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+section.upcoming .boxes .box .text{
+    text-align: center;
+    margin: 30px 0;
+}
+
+section.upcoming .boxes .box .text p.sisters{
+    color: 
+    #138951;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+section.upcoming .boxes .box .text p.theme{
+    font-size: 22px;
+}
+
+section.upcoming .boxes .box .text p.theme span{
+    font-weight: 700;
+}
+
+
+
+section.upcoming .boxes .box .text p.venue{
+    font-size: 22px;
+}
+
+section.upcoming .boxes .box .text p.venue span{
+    font-weight: 700;
+}
+
+
+section.upcoming .boxes .box .text p.reg {
+    font-size: 22px;
+}
+
+section.upcoming .boxes .box .text p.reg span{
+    font-weight: 700;
+}
+
+
+/* SECTION-NEWSLETTER */
+
+section.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 20px auto;
+}
+
+section.newsletter .col-1 p.subscribe{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    width: 300px;
+}
+
+section.newsletter .col-1 p {
+    width: 600px;
+}
+
+section.newsletter .col-2{
+    border: 2px solid #138951;
+    width: 350px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+section.newsletter .col-2 form input{
+    border: none;
+    width: 65%;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+section.newsletter .col-2 form input:focus{
+    outline: none;
+}
+
+section.newsletter .col-2 form button{
+    font-size: 16px;
+    padding: 10px;
+    width: 30%;
+    background-color: #138951;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
